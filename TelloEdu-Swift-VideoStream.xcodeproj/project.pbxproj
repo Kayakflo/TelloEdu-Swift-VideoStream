@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C5B5915A6D2C895421AE92 /* Pods_TelloEdu_Swift_VideoStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81B040F076F4711A6236A40 /* Pods_TelloEdu_Swift_VideoStream.framework */; };
+		5CCF191622AACFA8006EE7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF191522AACFA8006EE7D8 /* AppDelegate.swift */; };
+		5CCF191822AACFA8006EE7D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF191722AACFA8006EE7D8 /* ViewController.swift */; };
+		5CCF191B22AACFA8006EE7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCF191922AACFA8006EE7D8 /* Main.storyboard */; };
+		5CCF191D22AACFAA006EE7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCF191C22AACFAA006EE7D8 /* Assets.xcassets */; };
+		5CCF192022AACFAA006EE7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCF191E22AACFAA006EE7D8 /* LaunchScreen.storyboard */; };
+		5CCF192822AACFC1006EE7D8 /* H264Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF192722AACFC1006EE7D8 /* H264Decoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CCF191222AACFA8006EE7D8 /* TelloEdu-Swift-VideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TelloEdu-Swift-VideoStream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCF191522AACFA8006EE7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CCF191722AACFA8006EE7D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CCF191A22AACFA8006EE7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CCF191C22AACFAA006EE7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CCF191F22AACFAA006EE7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CCF192122AACFAA006EE7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCF192722AACFC1006EE7D8 /* H264Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H264Decoder.swift; sourceTree = "<group>"; };
+		9A93A9FE1CC83FFEECDD797A /* Pods-TelloEdu-Swift-VideoStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelloEdu-Swift-VideoStream.release.xcconfig"; path = "Pods/Target Support Files/Pods-TelloEdu-Swift-VideoStream/Pods-TelloEdu-Swift-VideoStream.release.xcconfig"; sourceTree = "<group>"; };
+		CA4386D62EE4A3C351FD5CDF /* Pods-TelloEdu-Swift-VideoStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelloEdu-Swift-VideoStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TelloEdu-Swift-VideoStream/Pods-TelloEdu-Swift-VideoStream.debug.xcconfig"; sourceTree = "<group>"; };
+		F81B040F076F4711A6236A40 /* Pods_TelloEdu_Swift_VideoStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelloEdu_Swift_VideoStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCF190F22AACFA8006EE7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5B5915A6D2C895421AE92 /* Pods_TelloEdu_Swift_VideoStream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCF190922AACFA8006EE7D8 = {
+			isa = PBXGroup;
+			children = (
+				5CCF191422AACFA8006EE7D8 /* TelloEdu-Swift-VideoStream */,
+				5CCF191322AACFA8006EE7D8 /* Products */,
+				D95F710DDCF0697EA0A88EE7 /* Pods */,
+				8ADA898BF89ABB6AE39DE4BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCF191322AACFA8006EE7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF191222AACFA8006EE7D8 /* TelloEdu-Swift-VideoStream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCF191422AACFA8006EE7D8 /* TelloEdu-Swift-VideoStream */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF191522AACFA8006EE7D8 /* AppDelegate.swift */,
+				5CCF191722AACFA8006EE7D8 /* ViewController.swift */,
+				5CCF191922AACFA8006EE7D8 /* Main.storyboard */,
+				5CCF191C22AACFAA006EE7D8 /* Assets.xcassets */,
+				5CCF191E22AACFAA006EE7D8 /* LaunchScreen.storyboard */,
+				5CCF192122AACFAA006EE7D8 /* Info.plist */,
+				5CCF192722AACFC1006EE7D8 /* H264Decoder.swift */,
+			);
+			path = "TelloEdu-Swift-VideoStream";
+			sourceTree = "<group>";
+		};
+		8ADA898BF89ABB6AE39DE4BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F81B040F076F4711A6236A40 /* Pods_TelloEdu_Swift_VideoStream.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D95F710DDCF0697EA0A88EE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA4386D62EE4A3C351FD5CDF /* Pods-TelloEdu-Swift-VideoStream.debug.xcconfig */,
+				9A93A9FE1CC83FFEECDD797A /* Pods-TelloEdu-Swift-VideoStream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCF191122AACFA8006EE7D8 /* TelloEdu-Swift-VideoStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCF192422AACFAA006EE7D8 /* Build configuration list for PBXNativeTarget "TelloEdu-Swift-VideoStream" */;
+			buildPhases = (
+				D4EBD5F47CFF9DE8CDB51091 /* [CP] Check Pods Manifest.lock */,
+				5CCF190E22AACFA8006EE7D8 /* Sources */,
+				5CCF190F22AACFA8006EE7D8 /* Frameworks */,
+				5CCF191022AACFA8006EE7D8 /* Resources */,
+				7C99CCC46CD0418312E87F00 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TelloEdu-Swift-VideoStream";
+			productName = "TelloEdu-Swift-VideoStream";
+			productReference = 5CCF191222AACFA8006EE7D8 /* TelloEdu-Swift-VideoStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCF190A22AACFA8006EE7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Florian Kriegel";
+				TargetAttributes = {
+					5CCF191122AACFA8006EE7D8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CCF190D22AACFA8006EE7D8 /* Build configuration list for PBXProject "TelloEdu-Swift-VideoStream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CCF190922AACFA8006EE7D8;
+			productRefGroup = 5CCF191322AACFA8006EE7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCF191122AACFA8006EE7D8 /* TelloEdu-Swift-VideoStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCF191022AACFA8006EE7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCF192022AACFAA006EE7D8 /* LaunchScreen.storyboard in Resources */,
+				5CCF191D22AACFAA006EE7D8 /* Assets.xcassets in Resources */,
+				5CCF191B22AACFA8006EE7D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C99CCC46CD0418312E87F00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TelloEdu-Swift-VideoStream/Pods-TelloEdu-Swift-VideoStream-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TelloEdu-Swift-VideoStream/Pods-TelloEdu-Swift-VideoStream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EBD5F47CFF9DE8CDB51091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TelloEdu-Swift-VideoStream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCF190E22AACFA8006EE7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCF191822AACFA8006EE7D8 /* ViewController.swift in Sources */,
+				5CCF192822AACFC1006EE7D8 /* H264Decoder.swift in Sources */,
+				5CCF191622AACFA8006EE7D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CCF191922AACFA8006EE7D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCF191A22AACFA8006EE7D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CCF191E22AACFAA006EE7D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCF191F22AACFAA006EE7D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCF192222AACFAA006EE7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CCF192322AACFAA006EE7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CCF192522AACFAA006EE7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4386D62EE4A3C351FD5CDF /* Pods-TelloEdu-Swift-VideoStream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTH94VFFCX;
+				INFOPLIST_FILE = "TelloEdu-Swift-VideoStream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.solutap.TelloEdu-Swift-VideoStream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CCF192622AACFAA006EE7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A93A9FE1CC83FFEECDD797A /* Pods-TelloEdu-Swift-VideoStream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTH94VFFCX;
+				INFOPLIST_FILE = "TelloEdu-Swift-VideoStream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.solutap.TelloEdu-Swift-VideoStream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCF190D22AACFA8006EE7D8 /* Build configuration list for PBXProject "TelloEdu-Swift-VideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCF192222AACFAA006EE7D8 /* Debug */,
+				5CCF192322AACFAA006EE7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCF192422AACFAA006EE7D8 /* Build configuration list for PBXNativeTarget "TelloEdu-Swift-VideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCF192522AACFAA006EE7D8 /* Debug */,
+				5CCF192622AACFAA006EE7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCF190A22AACFA8006EE7D8 /* Project object */;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TelloEdu_Swift_VideoStream" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fC4-VX-d4f">
+                                <rect key="frame" x="64" y="58" width="768" height="335"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpJ-Ek-NiM">
+                                <rect key="frame" x="64" y="20" width="768" height="30"/>
+                                <state key="normal" title="Connect &amp; Start Video Stream"/>
+                                <connections>
+                                    <action selector="startBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAl-7p-MEp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fC4-VX-d4f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9S7-fG-5hJ"/>
+                            <constraint firstItem="fC4-VX-d4f" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LqB-HF-Vv2"/>
+                            <constraint firstItem="fC4-VX-d4f" firstAttribute="top" secondItem="JpJ-Ek-NiM" secondAttribute="bottom" constant="8" symbolic="YES" id="gDs-Iw-bbt"/>
+                            <constraint firstItem="JpJ-Ek-NiM" firstAttribute="centerX" secondItem="fC4-VX-d4f" secondAttribute="centerX" id="rbP-vk-fnG"/>
+                            <constraint firstItem="JpJ-Ek-NiM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rms-4I-1nr"/>
+                            <constraint firstItem="JpJ-Ek-NiM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="tfJ-RW-CC9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="startBtn" destination="JpJ-Ek-NiM" id="O5u-6E-VOn"/>
+                        <outlet property="videoView" destination="fC4-VX-d4f" id="dZg-Fo-Iva"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.61607142857142" y="120.28985507246378"/>
+        </scene>
+    </scenes>
+</document>
